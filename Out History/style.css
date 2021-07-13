@@ -1,0 +1,223 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@300&display=swap');
+/* font-family: 'Taviraj', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap');
+/* font-family: 'Big Shoulders Stencil Display', cursive;  */
+
+        /* ********************************************* */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+   padding:0px;
+   margin:0px;
+  /* font-family: 'Taviraj', serif; */
+}
+section{
+  display:inline-block;
+  padding:0px;
+  margin:0px;
+}
+section h3{
+  font-weight: 400 ;
+}
+a{
+  color:rgb(196, 30, 30);
+}
+
+
+/* NAVIGATION */
+.section1 .firstLine{
+  background-color: rgb(154 48 23);
+  text-align: center;
+  margin: 0px;
+  color: white;
+}
+.section1 nav {
+  background-color: rgb(229 191 128 / 75%);
+  margin: 0px;
+  position: relative;
+  top: -16px;
+  font-size: 1.5rem;
+  height: auto;
+}
+.section1 a{
+   color: black;
+}
+.dropdown-menu{
+  background-color: rgb(229 191 128 / 50%);
+}
+.navIcons a{
+  font-size: 100%;
+}
+nav img{
+  margin: 0; 
+  width: 60%;  
+}
+.logo{
+  margin-left: auto;  
+  margin-right: auto;
+}
+
+/* SECTION 1 */
+.section1{
+  background-color: rgb(207 101 15 / 30%);
+  width: 100%;
+  height: auto;  
+  margin: 0px; 
+}
+.section1 .section1Container{
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.section1 .section1Container p{
+    text-align: center;
+    margin: 2rem;
+}
+.section1 .section1Container h2{
+  font-size: 3rem;
+  color:rgb(154 48 23);
+}
+.section1 .section1Container h2 span{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+}
+/* SECTION 2 */
+.section2{
+  display: flex;
+  text-align: center;
+}
+.section2 .para h1{
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  color:rgb(154 48 23);
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+.section2 .para{
+  margin: 3rem;
+  font-size: 1.1rem;
+}
+.section2 img{
+  margin: 3rem;
+}
+
+
+/* SECTION 3 */
+.section3{
+  background-color: #d88139;
+  padding: 5rem;
+  padding-left: 7rem;
+}
+.section3 img{
+  margin: 2%;
+  padding: 5px;
+}
+.section3container{
+  display: flex;
+  padding-right: 1.5rem;
+}
+.section3container h1{
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+.section3container p{
+  color: white;
+  font-size: 1.3rem;
+}
+
+/* SECTION 4 */
+.section4{
+  background-image: url("Images/making chhapal.jpg");
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;  
+  margin: 0px;
+}
+.section4 .para{
+margin-right: 7%;
+margin-top: 7.5%;
+width: 50%;
+float: right;
+text-align: justify;
+font-size: 1.3rem;
+}
+
+  /* FOOTER */
+
+  footer{
+    background-color: rgba(245, 200, 133, 0.755);
+    color: rgb(154 48 23);
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  footer .firstColumn{
+    margin: 3rem;
+    margin-right: 6.5rem;
+  }
+  footer .verticalLine{
+    margin: 3rem;
+    margin-left: 6.5rem;
+    margin-right: 0;
+  }
+  footer .secondColumn{
+    margin: 3rem;
+  }
+.FooterBtn{
+  font-size: 2rem;
+  border: 0px;
+  background-color: transparent;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.download-btn{
+  margin: 0px 30px 0px 0px;
+}
+.verticalLine{
+  border-left: 6px solid rgb(154 48 23);
+  height: 150px;
+}
+.email {
+     padding: 5px;
+     font-size: 16px;
+     border-width: 1px;
+     border: 0px;
+     background-color: rgb(255 215 155 / 0%);
+     border-style: solid;
+     border-radius: 6px;
+     margin-bottom: 0px;   
+}
+ .email:focus {
+     outline:none;
+}
+#subscribBtn{
+  border: 0px;
+  background-color: rgb(154 48 23);
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  color: white;
+}
+.secondColumn .emailInput{
+  width: 200px;
+}
+.secondColumn .emailInput hr{
+  border: 1px solid rgb(154 48 23);
+}

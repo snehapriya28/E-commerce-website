@@ -1,0 +1,281 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@300&display=swap');
+/* font-family: 'Taviraj', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap');
+/*font-family: 'Big Shoulders Stencil Display', cursive;  */
+
+        /* ********************************************* */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+   padding:0px;
+   margin:0px;
+  /* font-family: 'Taviraj', serif; */
+}
+section{
+  display:inline-block;
+  padding:0px;
+  margin:0px;
+}
+section h3{
+  font-weight: 400 ;
+}
+a{
+  color: rgb(154 48 23);
+}
+
+/* FIRST SECTION */
+.section1{
+  background-image: url('images/page 1- landing page/page1section1.png');
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;  
+  margin: 0px; 
+}
+
+.section1 .firstLine{
+  background-color: rgb(154 48 23);
+  text-align: center;
+  margin: 0px;
+  color: rgb(255, 255, 255);
+}
+    /* navigation */
+.section1 nav {
+  background-color: rgb(229 191 128 / 50%);
+  margin: 0px;
+  position: relative;
+  top: -16px;
+  font-size: 1.5rem;
+  height: auto;
+}
+.section1 a{
+   color: rgb(255 255 255);
+}
+.dropdown-menu{
+  background-color: rgb(229 191 128 / 50%);
+}
+.navIcons a{
+  font-size: 100%;
+}
+nav img{
+  margin: 0; 
+  width: 60%;  
+}
+.logo{
+  margin-left: auto;  
+  margin-right: auto;
+}
+
+  /* Section 1 Button */
+.section1 #shopNowBtn{
+  border: 0px;
+  background-color: rgb(154 48 23);
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 15%;
+  right: 5%;
+  color: white;
+  border-radius: 5px;
+}
+
+/* SECOND SECTION */
+
+#section2{
+  background-image: url("images/page 1- landing page/page1section2.jpeg");
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;  
+  margin: 0px;
+}
+#section2 .firstContainer h1{
+  color: rgb(154 48 23);
+  margin-bottom: 10%;
+  margin-top: -10px;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  font-size: 4rem;
+}
+#section2 .firstContainer{
+
+  margin: 7% 5% 5% 1%;
+  padding: 5%;
+  padding-top: 10%;
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
+
+
+
+/*THIRD SECTION  */
+
+#section3{
+  width: 100%;
+  height: 500px;
+  background-color: rgba(245, 200, 133, 0.755);
+  text-align: center;
+}
+.section3TopContainer{
+  margin-top: 7%;
+}
+.section3heading2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(154 48 23);
+}
+.catagoriesImgCards{
+  width: 76%;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.card-text{
+  color: black;
+}
+.imgCard{
+  float: right;
+  width: 25%;
+  padding: 0 10px;
+  margin: 20px;
+}
+
+
+  /* FOURTH SECTION */
+
+#section4{
+  background-image: url("images/page 1- landing page/page1section4.png");
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;  
+  margin: 0px;
+}
+
+#section4 #shopNowBtn{
+      border: 0px;
+      background-color: rgb(246 124 37 / 82%);
+      padding: 19px;
+      padding-left: 60px;
+      padding-right: 60px;
+      font-size: 1.5rem;
+      float: right;
+      position: relative;
+      top: 80%;
+      right: 12%;
+      color: white;
+      border-radius: 5px;
+}
+
+  /* FIFTH SECTION */
+#section5{
+  background-image: url("images/page 1- landing page/page1Section5.jpg");
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;  
+  margin: 0px;
+
+}
+#section5 .firstContainer{
+
+  margin: 10% 0% 7% -2%;
+  padding: 5%;
+  padding-top: 10%;
+  width: 50%;
+  height: auto;
+  text-align: center;
+  text-align: left;
+}
+#section5 h1{
+  font-family: 'Big Shoulders Stencil Display', cursive;
+    position: absolute;
+    left: 3%;
+    margin-top: 5%;
+    font-size: 3rem;
+    font-weight: 500;
+    color:rgba(230, 106, 49, 0.918) ;
+}
+
+
+  /* FOOTER */
+
+  footer{
+    background-color: rgba(245, 200, 133, 0.755);
+    color: rgb(154 48 23);
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  footer .firstColumn{
+    margin: 3rem;
+    margin-right: 6.5rem;
+  }
+  footer .verticalLine{
+    margin: 3rem;
+    margin-left: 6.5rem;
+    margin-right: 0;
+  }
+  footer .secondColumn{
+    margin: 3rem;
+  }
+.FooterBtn{
+  font-size: 2rem;
+  border: 0px;
+  background-color: transparent;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.download-btn{
+  margin: 0px 30px 0px 0px;
+}
+.verticalLine{
+  border-left: 6px solid rgb(154 48 23);
+  height: 150px;
+}
+.email {
+     padding: 5px;
+     font-size: 16px;
+     border-width: 1px;
+     border: 0px;
+     background-color: rgb(255 215 155 / 0%);
+     border-style: solid;
+     border-radius: 6px;
+     margin-bottom: 0px;   
+}
+ .email:focus {
+     outline:none;
+}
+#subscribBtn{
+  border: 0px;
+  background-color: rgb(154 48 23);
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  color: white;
+}
+.secondColumn .emailInput{
+  width: 200px;
+}
+.secondColumn .emailInput hr{
+  border: 1px solid rgb(154 48 23);
+}
